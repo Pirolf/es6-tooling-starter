@@ -16,8 +16,6 @@ npm i
 ###Build
   
   `gulp build`
-  
-  `gulp rebuild` for a clean build
 ###Specs
 
   `gulp spec` 

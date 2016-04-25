@@ -3,7 +3,6 @@ describe('Hello', () => {
 	
 	beforeEach(() => {
 		hello = require('../../assets/javascripts/hello');
-		console.log(hello)
 	});
 
 	it('#test', () => {

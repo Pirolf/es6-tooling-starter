@@ -17,6 +17,11 @@ function build() {
     .pipe(gulp.dest('dist/'));
 }
 
+gulp.task('build', ['clean'], (done) => {
+    build();
+    done();
+});
+
 gulp.task('clean', (done) => {
   del(['dist/'])
     .then(() => done(), done);
