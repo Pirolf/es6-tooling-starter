@@ -2,12 +2,30 @@
 Setup for a Node/ES6 app with Babel, Jasmine, Webpack, Gulp
 
 ## Usage
-- Lint
+```
+git clone https://github.com/Pirolf/es6-tooling-starter.git
+
+npm i
+```
+###Lint
 
   `gulp lint`
-- Build
+###Clean
 
+  `gulp clean`
+###Build
+  
   `gulp build`
-- Specs
+  
+  `gulp rebuild` for a clean build
+###Specs
 
-  `gulp spec`
+  `gulp spec` 
+  
+  or `npm test`
+  
+  All assets and specs will be rebuilt
+  
+  Webpack will watch all changes
+  
+  Jasmine specs will be run on `localhost:8888`
